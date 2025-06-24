@@ -49,7 +49,7 @@ This is a full-stack healthcare application designed with the MERN (MongoDB, Exp
 ```bash
 # 1. Clone repo
 git clone https://github.com/Pranav3910/Priscripto
-cd your-repo
+cd Priscripto
 
 # 2. Install dependencies
 cd backend
