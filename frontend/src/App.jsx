@@ -11,7 +11,7 @@ import MyAppointments from './pages/MyAppointments'
 
 const App = () => {
   return (
-    <div className='mx-4 sm:mx-[10%]'>
+    <div className='mx-4 sm:mx-[9%]'>
       <Navbar/>
       <Routes>
         <Route index element={<Home/>}/>
