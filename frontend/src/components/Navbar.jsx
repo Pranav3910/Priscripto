@@ -7,7 +7,7 @@ const Navbar = () => {
     const navigate = useNavigate();
   return (
     <div className='text-sm py-4 border-b-[#ADADAD] border-b-2 mb-5 flex justify-between items-center'>
-        <img className='w-44 cursor-pointer' src={assets.logo} alt="" />
+        <img onClick={()=>{navigate('/home')}} className='w-44 cursor-pointer' src={assets.logo} alt="" />
         <ul className='hidden md:flex items-center gap-5 font-medium '>
             <NavLink to="/home">
                 <li className='py-1'>HOME</li>
