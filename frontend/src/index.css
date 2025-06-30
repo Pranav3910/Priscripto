@@ -9,6 +9,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
 @layer utilities {
   .grid-cols-auto {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -22,3 +26,4 @@ html {
 @theme{
     --color-primary:#5f6FFF;
 }
+
